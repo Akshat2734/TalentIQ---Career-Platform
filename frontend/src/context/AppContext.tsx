@@ -5,9 +5,6 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import Cookies from "js-cookie";
 import axios from "axios";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 export const auth_service = process.env.NEXT_PUBLIC_AUTH_SERVICE!;
 export const user_service = process.env.NEXT_PUBLIC_USER_SERVICE!;
